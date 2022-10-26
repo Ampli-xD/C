@@ -5,7 +5,7 @@ C is a case sensitive language
 
 # Syntax
 
-Must include **#include<stdio.h>** per processer directive <br>
+Must include **#include<stdio.h>** pre processer directive <br>
 ```c
 int main()
 {
