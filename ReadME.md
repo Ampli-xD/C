@@ -1,3 +1,4 @@
+# ***ॐ  गं गणपतये नमः***
 # Learning C 
 
 C is a case sensitive language
@@ -26,22 +27,46 @@ Here in C programing there are 3 ypes of Constants: <br>
 - int <br>
 - char <br>
 
-To print variables in output <br>
+**To print variables in output** 
 - ```printf("Integer variable %d ", variable name);``` <br>
 - ```printf("Real number variable %f", variable name);```<br>
 - ```printf("Character variable %c, variable name);```<br>
 
-To Get input 
+**To Get input**
 - ```scanf("%d", &IntegerVariable);``` <br>
 - ```scanf("%f", &RealVariable);``` <br>
 - ```scanf("%c", &CharacterVariable);``` <br>
- 
- # Comments
+
+# Instructions 
+**Type of instructions** <br>
+- Type Declaration Instructions: Declare a variable before using it, in order
+- Arithemetic Instructions: all the operations are on the RHS, LHS should have only one variable. int op float = float. examples +, -, *, /, %(only int, symbol depends on numerator) etc. When performing float to int **explicit conversion** we use ```(int) 1.82364``` and the output will be 1 as all the numbers after the decimal are completely removed. **NO ROUNDING OFF IS DONE BY THE COMPILER**. Arithemetic Operator precedence in C *, /, % Then +, - Then =, Example: ```x= 5 * 2 + 3 * 4 % 8``` When op of same precedence are together Associativity is used, this law states start to calculate left to right ```x = 4 * 2 % 5 * 3```.
+- Control Instructions: Sequence Control, Decision Control, Loop Control & Case Control
+
+# Operators 
+- Arithemetic Operators
+- Relational Operators: == | != | >,>= | <,<= | Return 1 being True or 0 being False
+- Logical Operators: && is and, || is or, ! is not
+- Bitwise Operators
+- Assignment Operators: =, +=, -=, *=, /=, %= These are shorthand operators.
+- Ternary Operators
+
+**Operator Precedence:**
+- !
+- *, /, %
+- +, -
+- <, <=, >, >=
+- ==, !=
+- &&
+- ||
+- =
+
+# Comments
 ```c
 // single line comment 
 /* multiple 
-    line 
-    comment 
+   line 
+   comment 
 */
 ```
 
