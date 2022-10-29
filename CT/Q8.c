@@ -19,5 +19,5 @@ int main()
     printf("a= %d", day=="sunday" && weather=="smowing");
     printf("b= %d", day=="monday" || weather=="raining");
     printf("c= %d", number>9 && number<100);
-
+    return 0;
 }

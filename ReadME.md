@@ -111,6 +111,42 @@ switch(number)
 
 ```
 
+# Loop Control Instructions
+
+**for loop**
+
+*Syntax*
+```c
+for(initialisation; condition; updation)
+{
+    //do something
+}
+```
+- Here the itarator in the initialisation can be float or char aswell.
+
+**while loop**
+
+*Syntax*
+```c
+while(condition)
+{
+    //do something
+}
+```
+- Here first it will check the condition then do the work.
+
+**do while loop**
+
+*Syntax*
+```c
+do
+{
+    //do something
+}
+while (condition);
+```
+- Here first it will do the work then check the condition.
+
 # Comments
 ```c
 // single line comment

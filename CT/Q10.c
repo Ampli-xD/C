@@ -14,4 +14,6 @@ int main()
     marks>=30 && marks<70 ? printf("You will get B \n"):printf(" ");
     marks>=70 && marks<90 ? printf("You will get A \n"):printf(" ");
     marks>=90 && marks<100 ? printf("You will get A+ \n"):printf(" ");
+    return 0;
+    
 }
