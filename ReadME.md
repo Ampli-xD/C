@@ -147,6 +147,25 @@ while (condition);
 ```
 - Here first it will do the work then check the condition.
 
+**break Statement**
+
+Breaks the loop instantly
+```c
+if(i==3)
+{
+    break; //here whenever i's value is 3 loop will break instantly
+}
+```
+
+**continue Statement**
+
+Breaks the loop only once and continue it 
+```c
+if(i=3)
+{
+    continue; //here whenever i's value is 3, here loop will pass just this time and will continue to work when i is not 3
+}
+```
 # Comments
 ```c
 // single line comment
