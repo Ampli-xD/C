@@ -166,6 +166,31 @@ if(i=3)
     continue; //here whenever i's value is 3, here loop will pass just this time and will continue to work when i is not 3
 }
 ```
+
+# Functions and recursions 
+
+**Functions**
+
+Block of code that performs a particular task and can be used multiple times
+
+*Syntax*
+```c
+//declaration
+void printHello();
+
+int main()
+{
+    printHello(); //function call
+    printHello();
+    return 0;
+}
+//function
+void printHello()
+{
+    printf("Hello");
+}
+```
+
 # Comments
 ```c
 // single line comment
