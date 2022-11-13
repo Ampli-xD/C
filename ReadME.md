@@ -9,7 +9,7 @@ C is a case sensitive language
 Must include **#include<stdio.h>** pre processer directive <br>
 
 ```c
-int main()
+int main()git config –global –list
 {
     all the program is written in here;
     in the main function;
@@ -167,9 +167,7 @@ if(i=3)
 }
 ```
 
-# Functions and recursions 
-
-**Functions**
+# Functions
 
 Block of code that performs a particular task and can be used multiple times
 
@@ -190,6 +188,20 @@ void printHello()
     printf("Hello");
 }
 ```
+*Properties*
+- Execution always starts from main
+- A function gets called directly or in directly from main
+- There can be multiple functions in a program
+
+*Passing Arguments*
+```c
+void printTable(int n); // with no return value
+int sum(int a, int b); // with return value defind as int
+```
+
+# Recursion
+- recursive functions are functions those call themselves 
+- main > f(x) > f(x) > f(x) > passes value f(x) > f(x) > main
 
 # Comments
 ```c
