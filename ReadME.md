@@ -196,13 +196,24 @@ void printHello()
 *Passing Arguments*
 ```c
 void printTable(int n); // with no return value
-int sum(int a, int b); // with return value defind as int
+int sum(int a, int b); // with return value defined as int
+float divide(int a, int b); // with return value defined as float
+
 ```
 
 # Recursion
-- recursive functions are functions those call themselves 
-- main > f(x) > f(x) > f(x) > passes value f(x) > f(x) > main
-
+- recursive functions are functions those call themselves. 
+- main > f(x) > f(x) > f(x) > passes value f(x) > f(x) > main.
+- without base case the program will crash due to stack overflow.
+```c
+int Factorial(int n)
+{
+    if(n==1){return 1;} // Base Case, where the recursion will stop and start sending values back.
+    int fact=Factorial(n-1); //passed the process with n-1 again to the succeding function.
+    int output=fact*n; //when got the value multiply it by n and pass it to the preceding function. 
+    return output;
+}
+```
 # Comments
 ```c
 // single line comment
