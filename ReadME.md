@@ -214,6 +214,26 @@ int Factorial(int n)
     return output;
 }
 ```
+# Pointers
+
+- A variable that stores the memory address of another variable.
+```c
+int age = 22;       //age stores the value 22
+int *ptr = &age;    //variable *ptr stores the address of the age 
+                    //* value at address & defines address of
+int _age =*ptr;     //the value at the address ptr is assigned to variable _age
+```
+- format specifier for pointers
+```c
+printf("%p",&age);  //address of the variable age
+printf("%p",ptr);   //address used as a value in the variable ptr    
+printf("%p",&ptr);  //address of the variable ptr
+
+//%p gives the value in hexadecimal
+//%u can be used to get a value in the form of only numbers (unsigned int)
+```
+
+
 # Comments
 ```c
 // single line comment
